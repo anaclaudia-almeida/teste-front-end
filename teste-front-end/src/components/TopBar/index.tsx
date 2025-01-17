@@ -9,15 +9,15 @@ const TopBar: React.FC = () => {
     <div className="topbar">
       <div className="benefit">
         <img src={IconCheck} alt="icone seguranca" />
-        <span className="highlights">Compra 100% segura</span>
+        <span className="highlights">Compra <strong>100% segura</strong></span>
       </div>
       <div className="benefit">
       <img src={IconShipping} alt="icone entrega" />
-        <span className="highlights">Frete grátis acima de R$ 200</span>
+        <span className="highlights"><strong>Frete grátis</strong> acima de R$ 200</span>
       </div>
       <div className="benefit">
       <img src={IconCreditCard} alt="icone parcelamento" />
-        <span className="highlights">Parcele suas compras</span>
+        <span className="highlights"><strong>Parcele</strong> suas compras</span>
       </div>
     </div>
   );

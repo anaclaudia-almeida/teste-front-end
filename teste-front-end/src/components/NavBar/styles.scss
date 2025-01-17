@@ -1,0 +1,24 @@
+.navbar {
+  margin: auto;
+  max-width: 1280px;
+  height: 40px;
+}
+
+.menu-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;  
+}
+
+.list-menu {
+  list-style: none;
+  font-family: "Poppins", serif;
+  font-size: 12px;
+  color: #9F9F9F;
+  text-transform: uppercase;
+}
+
+.list-menu strong {
+  color: #3019B2;
+}

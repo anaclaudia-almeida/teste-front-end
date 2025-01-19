@@ -2,6 +2,9 @@
   margin: auto;
   max-width: 1280px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-desktop {
@@ -17,6 +20,7 @@
   font-size: 12px;
   color: #9F9F9F;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .list-menu strong {

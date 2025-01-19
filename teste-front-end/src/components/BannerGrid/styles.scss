@@ -1,0 +1,47 @@
+.banner-grid {
+  max-width: 1280px;
+  height: 350px;
+  margin: 90px auto;
+  display: flex;
+  gap: 13px;
+}
+
+.img-banner-grid img {
+  border-radius: 10px;
+}
+
+.text-banner-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  bottom: 250px;
+  left: 50px;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+  max-width: 216px;
+}
+
+.title-banner-grid {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.second-title-banner-grid {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner-button-grid {
+  background: #f7ca11;
+  color: #271c47;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 144px;
+  height: 48px;
+  border: 1px solid #f7ca11;
+  border-radius: 5px;
+  cursor: pointer;
+}

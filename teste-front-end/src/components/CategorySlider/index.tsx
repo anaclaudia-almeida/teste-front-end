@@ -13,19 +13,19 @@ const CategorySlider: React.FC = () => {
     <div className="category-slider">
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Tecnologia} alt="" />
+          <img src={Tecnologia} alt="Ícone Tecnologia" />
         </div>
         Tecnologia
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Supermercado} alt="" />
+          <img src={Supermercado} alt="Ícone Supermercado" />
         </div>
         Supermercado
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Bebidas} alt="" />
+          <img src={Bebidas} alt="Ícone Bebidas" />
         </div>
         Bebidas
       </div>
@@ -43,13 +43,13 @@ const CategorySlider: React.FC = () => {
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={EsporteFitness} alt="" />
+          <img src={EsporteFitness} alt="Ícone Esportes e Fitness" />
         </div>
         Esportes e Fitness
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Moda} alt="" />
+          <img src={Moda} alt="Ícone Moda" />
         </div>
         Moda
       </div>

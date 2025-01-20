@@ -35,13 +35,6 @@ npm install
 npm run dev
 ```
 
-### 3.Instalar as Dependências
-Instale as dependências do projeto utilizando o npm:
-
-```shell 
-npm install
-```
-
 ### 5. Rodar o Projeto
 Agora, inicie o servidor de desenvolvimento com o seguinte comando:
 

@@ -1,7 +1,3 @@
-# Teste Econverse
-
-Este projeto foi desenvolvido como parte de um teste para a vaga de **Estágio Desenvolvedor Front-End**. O objetivo é criar uma aplicação web utilizando **React**, **TypeScript**, **SCSS** e integração com uma API para exibição de produtos em uma vitrine de e-commerce.
-
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca para construção da interface de usuário.

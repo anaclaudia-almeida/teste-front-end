@@ -35,12 +35,5 @@ npm install
 npm run dev
 ```
 
-### 5. Rodar o Projeto
-Agora, inicie o servidor de desenvolvimento com o seguinte comando:
-
-```shell 
-npm run dev
-```
-
 Isso irá iniciar o servidor de desenvolvimento na URL http://localhost:5173. 
 Abra esta URL no seu navegador para ver a aplicação em funcionamento.

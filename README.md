@@ -1,7 +1,3 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
-
-Este projeto foi desenvolvido como parte de um teste para a vaga de **Estágio Desenvolvedor Front-End**. O objetivo é criar uma aplicação web utilizando **React**, **TypeScript**, **SCSS** e integração com uma API para exibição de produtos em uma vitrine de e-commerce.
-
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca para construção da interface de usuário.
@@ -17,11 +13,16 @@ Primeiro, clone o repositório para o seu ambiente local:
 
 git clone https://github.com/anaclaudia-almeida/teste-front-end.git
 
+<<<<<<< HEAD
 ### 2. Navegar para o Diretório do Projeto
+=======
+### 2.  Navegar para o Diretório do Projeto
+>>>>>>> 3348f7e973e9794b4ba0622fdf8c605ca080adcf
 Acesse o diretório do projeto:
 
 cd teste-front-end
 
+<<<<<<< HEAD
 ### 3. Instalar as Dependências
 
 npm install
@@ -31,3 +32,18 @@ npm install
 npm run dev
 
 
+=======
+### 3.Instalar as Dependências
+Instale as dependências do projeto utilizando o npm:
+
+npm install
+
+
+### 5. Rodar o Projeto
+Agora, inicie o servidor de desenvolvimento com o seguinte comando:
+
+npm run dev
+
+Isso irá iniciar o servidor de desenvolvimento na URL http://localhost:5173. 
+Abra esta URL no seu navegador para ver a aplicação em funcionamento.
+>>>>>>> 3348f7e973e9794b4ba0622fdf8c605ca080adcf

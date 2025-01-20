@@ -10,16 +10,16 @@ import Carrinho from "../../assets/svg/icon-carrinho-de-compras.svg";
 const Header: React.FC = () => {
   return (
     <div className="header">
-      <img className="logo" src={Logo} alt="" />
+      <img className="logo" src={Logo} alt="Logotipo Econverse" />
       <div className="search">
         <input className="placeholder-search" type="text" placeholder="O que você está buscando?" />
-        <img className="lens" src={Lupa} alt="" />
+        <img className="lens" src={Lupa} alt="Ícone Lupa" />
       </div>
       <div className="icons-header">
-        <img src={Pedidos} alt="" />
-        <img src={Favoritos} alt="" />
-        <img src={MinhaConta} alt="" />
-        <img src={Carrinho} alt="" />
+        <img src={Pedidos} alt="Ícone Pedidos" />
+        <img src={Favoritos} alt="Ícone Favoritos" />
+        <img src={MinhaConta} alt="Ícone Minha Conta" />
+        <img src={Carrinho} alt="Ícone Carrinho" />
       </div>
     </div>  
   );

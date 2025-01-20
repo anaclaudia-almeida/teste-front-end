@@ -1,13 +1,23 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json';
+export interface ProductResponse {
+  productName: string;
+  descriptionShort: string;
+  photo: string;
+  price: number;
+}
 
-export const getProducts = async () => {
+interface ApiResponse {
+  sucess: boolean;
+  products: ProductResponse[];
+}
+
+export async function getProducts() {
   try {
-    const response = await axios.get(API_URL);
+    const response = await axios.get<ApiResponse>("api/teste-front-end/junior/tecnologia/lista-produtos/produtos.json");
     return response.data.products;
   } catch (error) {
-    console.error('Erro ao buscar produtos', error);
+    console.error("Erro ao buscar produtos", error);
     return [];
   }
-};
+}

@@ -16,16 +16,13 @@
 
 .search input  {
   width: 630px;
+  padding: 20px;
   height: 48px;
   background: #F6F5F2;
   border: 1px solid #F6F5F2;
   border-radius: 10px;
   font-family: "Poppins", serif;
   font-size: 14px;
-}
-
-.placeholder-search::placeholder {
-  padding: 15px;
 }
 
 .lens {

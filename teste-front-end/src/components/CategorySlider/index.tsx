@@ -1,12 +1,12 @@
 import React from "react";
 import "../CategorySlider/styles.scss";
-import Tecnologia from "../../assets/png/icon-tecnologia.png";
-import Supermercado from "../../assets/png/icon-supermercados.png";
-import Bebidas from "../../assets/png/icon-whiskey.png";
-import Ferramentas from "../../assets/png/icon-ferramentas.png";
-import Saude from "../../assets/png/icon-cuidados-de-saude.png";
-import EsporteFitness from "../../assets/png/icon-corrida.png";
-import Moda from "../../assets/png/icon-moda.png";
+import Tecnologia from "../../assets/svg/icon-tecnologia.svg";
+import Supermercado from "../../assets/svg/icon-supermercados.svg";
+import Bebidas from "../../assets/svg/icon-whiskey.svg";
+import Ferramentas from "../../assets/svg/icon-ferramentas.svg";
+import Saude from "../../assets/svg/icon-cuidados-de-saude.svg";
+import EsporteFitness from "../../assets/svg/icon-corrida.svg";
+import Moda from "../../assets/svg/icon-moda.svg";
 
 const CategorySlider: React.FC = () => {
   return (
@@ -31,13 +31,13 @@ const CategorySlider: React.FC = () => {
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Ferramentas} alt="" />
+          <img src={Ferramentas} alt="Ícone Ferramentas" />
         </div>
         Ferramentas
       </div>
       <div className="item-slider">
         <div className="icon-slider">
-          <img src={Saude} alt="" />
+          <img src={Saude} alt="Ícone Saúde" />
         </div>
         Saúde
       </div>

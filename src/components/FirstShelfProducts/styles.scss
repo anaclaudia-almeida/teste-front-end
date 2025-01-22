@@ -1,3 +1,29 @@
+.navigation-category {
+  margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .navigation-category-item {
+    width: 214px;
+    height: 40px;
+    border: 1px solid #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #3B3B3B;
+    text-transform: uppercase;
+    
+    &:hover {
+      font-weight: 600;
+      color: #3442B5;
+    }
+  }
+
 .shelf-products {
   font-family: "Poppins", serif;
   display: flex;

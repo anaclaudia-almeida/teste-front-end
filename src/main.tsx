@@ -11,6 +11,7 @@ import BrandSlider from "./components/BrandsSlider";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import ShelfProducts from "./components/ShelfProducts";
+import FirstShelfProducts from "./components/FirstShelfProducts";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -19,7 +20,7 @@ createRoot(document.getElementById("root")!).render(
     <NavBar />
     <BannerHome />
     <CategorySlider />
-    <ShelfProducts />
+    <FirstShelfProducts />
     <BannerGrid />
     <ShelfProducts />
     <BannerGrid />

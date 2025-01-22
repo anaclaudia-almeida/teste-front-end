@@ -1,0 +1,121 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  width: 770px;
+  height: 300px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 247px;
+  height: 192px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.info-products {
+  max-width: 328px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.modal-title {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #3f3f40;
+}
+
+.modal-price {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f40;
+}
+
+.buttons-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 170px;
+  gap: 12px;
+}
+
+.quantity-selector {
+  width: 110px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-button {
+  background: transparent;
+  padding: 10px;
+  color: #9f9f9f;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quantity-display {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.modal-buy {
+  width: 188px;
+  height: 36px;
+  padding: 10px 20px;
+  background: #f7ca11;
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #271c47;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #f7c911cf;
+  }
+}
